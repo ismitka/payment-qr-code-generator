@@ -4,7 +4,7 @@
  * Plugin URI: https://www.smitka.net/wp-plugins/payment-qr-code-generator
  * Update URI: https://www.smitka.net/wp-plugin/payment-qr-code-generator
  * Description: Generátor QR kódů pro bankovní platby
- * Version: 1.0
+ * Version: 1.1
  * Author: Ivan Smitka
  * Author URI: http://www.smitka.net
  * License: The MIT License
