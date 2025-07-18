@@ -1,0 +1,40 @@
+.payment-qr-code-generator {
+  max-width: 640px;
+  &:not(.admin) {
+    margin: 0 auto;
+  }
+
+  label {
+    input, select {
+      width: 100%;
+      padding: 5px;
+      border-radius: 0;
+      font-size: 120%;
+      box-sizing: border-box;
+    }
+  }
+
+  img {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    float: right;
+  }
+
+  table {
+    border: 1px solid;
+    caption, th {
+      text-align: left;
+    }
+    tr[data-new] {
+      a {
+        display: none;
+      }
+    }
+  }
+}
