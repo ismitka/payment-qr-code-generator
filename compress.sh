@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -rf lib/phpqrcode/cache/*
 sass scss/default.scss static/css/default.css
-VERSION=$(git tag -l)
+VERSION=$(git tag -l | sort -r | head -1)
 echo "${VERSION}"
 sed -i -E "s/^ \* Version\: .*$/ * Version: ${VERSION}/g" payment-qr-code-generator.php
 (cd ../ && zip -r payment-qr-code-generator/${VERSION}.zip \
